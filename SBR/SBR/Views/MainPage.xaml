@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SBR"
+             xmlns:converters="clr-namespace:SBR.Converters"
+             xmlns:behavior="clr-namespace:SBR.Behaviors"
+             Title="Accueil"
+             x:Class="SBR.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:SelectedItemEventArgsToSelectedItemConverter x:Key="SelectedItemConverter" />
+            <converters:StringToImageConverter x:Key="SelectedImage"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Entry Placeholder="Filtrer par titre..."
+               Text="{Binding Query}"/>
+        <Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        
+        <ListView x:Name="listviewSamples"
+                  HasUnevenRows="True"
+                  IsPullToRefreshEnabled="True"
+                  RefreshCommand="{Binding RefreshCommand}"
+                  ItemsSource="{Binding ListeSamples}"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}">
+                    
+            <ListView.Behaviors>
+                <behavior:ListViewSelectedItemBehavior Command="{Binding GotoDetailPage}" Converter="{StaticResource SelectedItemConverter}" />
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"
+                                   Source="{Binding ImageCharacter, Converter={StaticResource SelectedImage}}"
+                                   HeightRequest="60"
+                                   WidthRequest="60"
+                                   Margin="4"></Image>
+                            <StackLayout Grid.Column="1"
+                                         Padding="10">
+                                <Label Text="{Binding Title}"
+                                       LineBreakMode="WordWrap"
+                                       FontSize="14"></Label>
+                                <Label Text="{Binding Episode}"
+                                       LineBreakMode="NoWrap"
+                                       FontSize="12"></Label>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

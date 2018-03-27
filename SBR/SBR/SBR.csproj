@@ -1,0 +1,303 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ressources\Images\angharad.png" />
+    <None Remove="Ressources\Images\arthur.png" />
+    <None Remove="Ressources\Images\arthurleroiburgonde.png" />
+    <None Remove="Ressources\Images\attila.png" />
+    <None Remove="Ressources\Images\bohort.png" />
+    <None Remove="Ressources\Images\breccan.png" />
+    <None Remove="Ressources\Images\caius.png" />
+    <None Remove="Ressources\Images\dagonet.png" />
+    <None Remove="Ressources\Images\demetra.png" />
+    <None Remove="Ressources\Images\elias.png" />
+    <None Remove="Ressources\Images\eliasdekelliwich.png" />
+    <None Remove="Ressources\Images\guenievre.png" />
+    <None Remove="Ressources\Images\guethenoc.png" />
+    <None Remove="Ressources\Images\kadoc.png" />
+    <None Remove="Ressources\Images\karadoc.png" />
+    <None Remove="Ressources\Images\ladamedulac.png" />
+    <None Remove="Ressources\Images\lancelot.png" />
+    <None Remove="Ressources\Images\lemaitredarmes.png" />
+    <None Remove="Ressources\Images\leodagan.png" />
+    <None Remove="Ressources\Images\lerepurgateur.png" />
+    <None Remove="Ressources\Images\letavernier.png" />
+    <None Remove="Ressources\Images\levequeboniface.png" />
+    <None Remove="Ressources\Images\linterprete.png" />
+    <None Remove="Ressources\Images\logo_large.jpg" />
+    <None Remove="Ressources\Images\merlin.png" />
+    <None Remove="Ressources\Images\perceval.png" />
+    <None Remove="Ressources\Images\profile_generic.png" />
+    <None Remove="Ressources\Images\roparzh.png" />
+    <None Remove="Ressources\Images\ropharz.png" />
+    <None Remove="Ressources\Images\search.png" />
+    <None Remove="Ressources\Images\seli.png" />
+    <None Remove="Ressources\Images\slideout.png" />
+    <None Remove="Ressources\Images\venec.png" />
+    <None Remove="Ressources\Images\yvain.png" />
+    <None Remove="Ressources\Samples\ah_le_printemps_on_crame_des_mecs.mp3" />
+    <None Remove="Ressources\Samples\allez_boire_un_coup.mp3" />
+    <None Remove="Ressources\Samples\apres_pour_le_detail_je_sais_pas.mp3" />
+    <None Remove="Ressources\Samples\arretez_de_parler_aux_gens.mp3" />
+    <None Remove="Ressources\Samples\a_la_volette1.mp3" />
+    <None Remove="Ressources\Samples\a_moi_a_lassassin.mp3" />
+    <None Remove="Ressources\Samples\a_roulettes.mp3" />
+    <None Remove="Ressources\Samples\bien_manger_cest_important.mp3" />
+    <None Remove="Ressources\Samples\bonjour_la_pedagogie.mp3" />
+    <None Remove="Ressources\Samples\burgonde_ou_anglais.mp3" />
+    <None Remove="Ressources\Samples\ca_change_tout.mp3" />
+    <None Remove="Ressources\Samples\ca_va_encore_faire_des_discussions_a_rallonge.mp3" />
+    <None Remove="Ressources\Samples\ca_va_un_peu_trop_vite_pour_moi.mp3" />
+    <None Remove="Ressources\Samples\ca_vous_ennuie_si_je_vomis.mp3" />
+    <None Remove="Ressources\Samples\ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3" />
+    <None Remove="Ressources\Samples\cest_bien_fait.mp3" />
+    <None Remove="Ressources\Samples\cest_debile_cette_histoire.mp3" />
+    <None Remove="Ressources\Samples\cest_de_la_merde.mp3" />
+    <None Remove="Ressources\Samples\cest_honteux.mp3" />
+    <None Remove="Ressources\Samples\cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3" />
+    <None Remove="Ressources\Samples\cest_pas_faux1.mp3" />
+    <None Remove="Ressources\Samples\cest_pas_faux2.mp3" />
+    <None Remove="Ressources\Samples\cest_pas_jo_le_rigolo.mp3" />
+    <None Remove="Ressources\Samples\cest_pas_une_sinecure.mp3" />
+    <None Remove="Ressources\Samples\cest_plus_filiforme.mp3" />
+    <None Remove="Ressources\Samples\cest_vrai_quelle_reste.mp3" />
+    <None Remove="Ressources\Samples\commencez_pas_a_me_faire_chier.mp3" />
+    <None Remove="Ressources\Samples\crame_ta_famille.mp3" />
+    <None Remove="Ressources\Samples\des_vetements.mp3" />
+    <None Remove="Ressources\Samples\deux_trous_du_cul_soient_plus_efficaces_qu_un_seul.mp3" />
+    <None Remove="Ressources\Samples\dites_tirez_vous.mp3" />
+    <None Remove="Ressources\Samples\ecartez-vous.mp3" />
+    <None Remove="Ressources\Samples\elle_est_ou_la_poulette.mp3" />
+    <None Remove="Ressources\Samples\en_garde_espece_de_vieille_pute_degarnie.mp3" />
+    <None Remove="Ressources\Samples\en_garde_ma_mignone.mp3" />
+    <None Remove="Ressources\Samples\est_ce_que_peut_servir_elan_pigeon.mp3" />
+    <None Remove="Ressources\Samples\faut_ce_qui_faut.mp3" />
+    <None Remove="Ressources\Samples\federer_mes_couilles.mp3" />
+    <None Remove="Ressources\Samples\he_les_connards_vous_pouvez_faire_griller_un_porcelet.mp3" />
+    <None Remove="Ressources\Samples\honnetement_je_connais_pas_le_mot_la.mp3" />
+    <None Remove="Ressources\Samples\il_est_pas_beau_mon_graal.mp3" />
+    <None Remove="Ressources\Samples\il_pue_il_pete.mp3" />
+    <None Remove="Ressources\Samples\insipide.mp3" />
+    <None Remove="Ressources\Samples\interprete.mp3" />
+    <None Remove="Ressources\Samples\je_ne_mange_pas_de_graines.mp3" />
+    <None Remove="Ressources\Samples\je_refuse_daller_me_battre.mp3" />
+    <None Remove="Ressources\Samples\je_vois_pas_le_rapport_avec_bretagne.mp3" />
+    <None Remove="Ressources\Samples\je_vois_trouble.mp3" />
+    <None Remove="Ressources\Samples\jpeux_pas_vous_dire.mp3" />
+    <None Remove="Ressources\Samples\lair_idiote.mp3" />
+    <None Remove="Ressources\Samples\laissez_le_a_lair.mp3" />
+    <None Remove="Ressources\Samples\la_bouffe_est_interdite.mp3" />
+    <None Remove="Ressources\Samples\le_graal_par_ci_le_graal_par_la.mp3" />
+    <None Remove="Ressources\Samples\le_gras_cest_la_vie.mp3" />
+    <None Remove="Ressources\Samples\le_pognon_ca_va_ca_vient.mp3" />
+    <None Remove="Ressources\Samples\le_prochain_qui_l_ouvre_galeres_trois_ans.mp3" />
+    <None Remove="Ressources\Samples\madresse_pas_la_parole.mp3" />
+    <None Remove="Ressources\Samples\mais_allez_chier_dans_une_fiolle.mp3" />
+    <None Remove="Ressources\Samples\mais_faut_pas_deconner_ils_y_sont_pour_rien.mp3" />
+    <None Remove="Ressources\Samples\mais_je_vous_ai_dis_que_c_etait_important.mp3" />
+    <None Remove="Ressources\Samples\mais_je_vous_emmerde_mon_ptit_pote.mp3" />
+    <None Remove="Ressources\Samples\mais_qu_est_ce_que_j_en_ai_a_foutre.mp3" />
+    <None Remove="Ressources\Samples\mais_tout_a_fait.mp3" />
+    <None Remove="Ressources\Samples\mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3" />
+    <None Remove="Ressources\Samples\ma_femme_a_pas_de_moustache.mp3" />
+    <None Remove="Ressources\Samples\moi_jai_toujours_dit.mp3" />
+    <None Remove="Ressources\Samples\moi_jai_toujours_dit2.mp3" />
+    <None Remove="Ressources\Samples\moi_je_serais_vous_je_vous_ecouterais.mp3" />
+    <None Remove="Ressources\Samples\oh_cest_la_vacherie_ca.mp3" />
+    <None Remove="Ressources\Samples\oh_la_vache.mp3" />
+    <None Remove="Ressources\Samples\on_en_a_gros.mp3" />
+    <None Remove="Ressources\Samples\pas_de_quoi_en_chier_une_galette.mp3" />
+    <None Remove="Ressources\Samples\plait_il.mp3" />
+    <None Remove="Ressources\Samples\pourquoi_pas1.mp3" />
+    <None Remove="Ressources\Samples\pourquoi_pas2.mp3" />
+    <None Remove="Ressources\Samples\pourquoi_qu_on_gueule.mp3" />
+    <None Remove="Ressources\Samples\ptite_pucelle.mp3" />
+    <None Remove="Ressources\Samples\putain_il_est_fort_ce_con.mp3" />
+    <None Remove="Ressources\Samples\quand_on_gueule_sans_savoir_pourquoi.mp3" />
+    <None Remove="Ressources\Samples\quand_on_se_fache.mp3" />
+    <None Remove="Ressources\Samples\rien_a_carer.mp3" />
+    <None Remove="Ressources\Samples\si_vous_etes_vendeur.mp3" />
+    <None Remove="Ressources\Samples\sortez-vous_les_doigts_du_cul.mp3" />
+    <None Remove="Ressources\Samples\soupcon_gros_nul.mp3" />
+    <None Remove="Ressources\Samples\sourire_comme_des_glands.mp3" />
+    <None Remove="Ressources\Samples\toujours_se_plaindre_pequenauds.mp3" />
+    <None Remove="Ressources\Samples\un_bon_quart_dheure.mp3" />
+    <None Remove="Ressources\Samples\un_genre_cake.mp3" />
+    <None Remove="Ressources\Samples\venir_foutre_votre_merde.mp3" />
+    <None Remove="Ressources\Samples\voila_cest_pro.mp3" />
+    <None Remove="Ressources\Samples\vous_allez_fermer_vos_mouilles_oui.mp3" />
+    <None Remove="Ressources\Samples\vous_deconnez.mp3" />
+    <None Remove="Ressources\Samples\vous_etes_completement_con.mp3" />
+    <None Remove="Ressources\Samples\vous_la_crachez_votre_pastille.mp3" />
+    <None Remove="Ressources\Samples\vous_nous_utilisez_bon_gre_mal_gre_pour_arriver_sur_la_fin.mp3" />
+    <None Remove="Ressources\Samples\vous_rigolez_jespere.mp3" />
+    <None Remove="Ressources\Samples\vraiment_impressionnant.mp3" />
+    <None Remove="Ressources\Samples\wooouuuhouhouhou_c_est_mortel.mp3" />
+    <None Remove="Ressources\Samples\zut_la.mp3" />
+    <None Remove="Ressources\sounds.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Ressources\Images\angharad.png" />
+    <EmbeddedResource Include="Ressources\Images\arthur.png" />
+    <EmbeddedResource Include="Ressources\Images\arthurleroiburgonde.png" />
+    <EmbeddedResource Include="Ressources\Images\attila.png" />
+    <EmbeddedResource Include="Ressources\Images\bohort.png" />
+    <EmbeddedResource Include="Ressources\Images\breccan.png" />
+    <EmbeddedResource Include="Ressources\Images\caius.png" />
+    <EmbeddedResource Include="Ressources\Images\dagonet.png" />
+    <EmbeddedResource Include="Ressources\Images\demetra.png" />
+    <EmbeddedResource Include="Ressources\Images\elias.png" />
+    <EmbeddedResource Include="Ressources\Images\eliasdekelliwich.png" />
+    <EmbeddedResource Include="Ressources\Images\guenievre.png" />
+    <EmbeddedResource Include="Ressources\Images\guethenoc.png" />
+    <EmbeddedResource Include="Ressources\Images\kadoc.png" />
+    <EmbeddedResource Include="Ressources\Images\karadoc.png" />
+    <EmbeddedResource Include="Ressources\Images\ladamedulac.png" />
+    <EmbeddedResource Include="Ressources\Images\lancelot.png" />
+    <EmbeddedResource Include="Ressources\Images\lemaitredarmes.png" />
+    <EmbeddedResource Include="Ressources\Images\leodagan.png" />
+    <EmbeddedResource Include="Ressources\Images\lerepurgateur.png" />
+    <EmbeddedResource Include="Ressources\Images\letavernier.png" />
+    <EmbeddedResource Include="Ressources\Images\levequeboniface.png" />
+    <EmbeddedResource Include="Ressources\Images\linterprete.png" />
+    <EmbeddedResource Include="Ressources\Images\logo_large.jpg" />
+    <EmbeddedResource Include="Ressources\Images\merlin.png" />
+    <EmbeddedResource Include="Ressources\Images\perceval.png" />
+    <EmbeddedResource Include="Ressources\Images\profile_generic.png" />
+    <EmbeddedResource Include="Ressources\Images\roparzh.png" />
+    <EmbeddedResource Include="Ressources\Images\ropharz.png" />
+    <EmbeddedResource Include="Ressources\Images\search.png" />
+    <EmbeddedResource Include="Ressources\Images\seli.png" />
+    <EmbeddedResource Include="Ressources\Images\slideout.png" />
+    <EmbeddedResource Include="Ressources\Images\venec.png" />
+    <EmbeddedResource Include="Ressources\Images\yvain.png" />
+    <EmbeddedResource Include="Ressources\Samples\ah_le_printemps_on_crame_des_mecs.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\allez_boire_un_coup.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\apres_pour_le_detail_je_sais_pas.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\arretez_de_parler_aux_gens.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\a_la_volette1.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\a_moi_a_lassassin.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\a_roulettes.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\bien_manger_cest_important.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\bonjour_la_pedagogie.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\burgonde_ou_anglais.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ca_change_tout.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ca_va_encore_faire_des_discussions_a_rallonge.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ca_va_un_peu_trop_vite_pour_moi.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ca_vous_ennuie_si_je_vomis.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_bien_fait.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_debile_cette_histoire.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_de_la_merde.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_honteux.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_pas_faux1.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_pas_faux2.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_pas_jo_le_rigolo.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_pas_une_sinecure.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_plus_filiforme.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\cest_vrai_quelle_reste.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\commencez_pas_a_me_faire_chier.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\crame_ta_famille.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\des_vetements.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\deux_trous_du_cul_soient_plus_efficaces_qu_un_seul.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\dites_tirez_vous.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ecartez-vous.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\elle_est_ou_la_poulette.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\en_garde_espece_de_vieille_pute_degarnie.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\en_garde_ma_mignone.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\est_ce_que_peut_servir_elan_pigeon.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\faut_ce_qui_faut.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\federer_mes_couilles.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\he_les_connards_vous_pouvez_faire_griller_un_porcelet.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\honnetement_je_connais_pas_le_mot_la.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\il_est_pas_beau_mon_graal.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\il_pue_il_pete.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\insipide.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\interprete.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\je_ne_mange_pas_de_graines.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\je_refuse_daller_me_battre.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\je_vois_pas_le_rapport_avec_bretagne.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\je_vois_trouble.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\jpeux_pas_vous_dire.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\lair_idiote.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\laissez_le_a_lair.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\la_bouffe_est_interdite.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\le_graal_par_ci_le_graal_par_la.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\le_gras_cest_la_vie.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\le_pognon_ca_va_ca_vient.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\le_prochain_qui_l_ouvre_galeres_trois_ans.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\madresse_pas_la_parole.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_allez_chier_dans_une_fiolle.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_faut_pas_deconner_ils_y_sont_pour_rien.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_je_vous_ai_dis_que_c_etait_important.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_je_vous_emmerde_mon_ptit_pote.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_qu_est_ce_que_j_en_ai_a_foutre.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_tout_a_fait.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ma_femme_a_pas_de_moustache.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\moi_jai_toujours_dit.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\moi_jai_toujours_dit2.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\moi_je_serais_vous_je_vous_ecouterais.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\oh_cest_la_vacherie_ca.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\oh_la_vache.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\on_en_a_gros.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\pas_de_quoi_en_chier_une_galette.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\plait_il.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\pourquoi_pas1.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\pourquoi_pas2.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\pourquoi_qu_on_gueule.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\ptite_pucelle.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\putain_il_est_fort_ce_con.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\quand_on_gueule_sans_savoir_pourquoi.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\quand_on_se_fache.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\rien_a_carer.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\si_vous_etes_vendeur.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\sortez-vous_les_doigts_du_cul.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\soupcon_gros_nul.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\sourire_comme_des_glands.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\toujours_se_plaindre_pequenauds.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\un_bon_quart_dheure.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\un_genre_cake.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\venir_foutre_votre_merde.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\voila_cest_pro.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_allez_fermer_vos_mouilles_oui.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_deconnez.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_etes_completement_con.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_la_crachez_votre_pastille.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_nous_utilisez_bon_gre_mal_gre_pour_arriver_sur_la_fin.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vous_rigolez_jespere.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\vraiment_impressionnant.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\wooouuuhouhouhou_c_est_mortel.mp3" />
+    <EmbeddedResource Include="Ressources\Samples\zut_la.mp3" />
+    <EmbeddedResource Include="Ressources\sounds.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Plugin.Share" Version="7.1.1" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.0.2" />
+    <PackageReference Include="Xam.Plugins.TextToSpeech" Version="3.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MainPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\DetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
